@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+                            /* banner Section  style */
+header{
+    padding: 0 8rem;
+}
+header .banner{
+    margin-top: 2rem;
+    text-align: center;
+    padding: 8rem 0;
+    background-image: url(../img/Banner\ Img.png);
+    background-size:cover;
+}
+header .banner h3{
+    color: #FFFFFF;
+    font-family: Merriweather;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+
+}
+header .banner h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+                                    /* Offer Section style */
+ main{
+    padding: 0 8rem;;
+ }
+.offer-section{
+    text-align: center;
+    margin-top: 7rem;
+}
+.offer-section h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+.offer-section h5{
+    margin-top: 2rem;
+    color: #F00;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.offer-section h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: .5rem;
+}
+.offer-section img{
+    margin-top: 2.5rem;
+}
+
+                                    /* party banner section style */
+
+.party-banner-section{
+    margin-top: 7rem;
+    padding: 7rem 0 8rem 7rem;
+    background-image: url(../img/Vectorrr.png);
+    background-size: cover;
+    gap:2.45rem;
+}
+.party-banner-section h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+}
+.party-banner-section p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: .90rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+.party-banner-section button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.party-banner-section button:hover{
+    transform: scale(1.1);
+}
+
+                                /* Time And Date style */
+
+.place-and-time{
+    text-align: center;
+    margin-top: 7rem;
+    padding: 6rem 0rem;
+    background-image: linear-gradient(#ffe8e8, transparent);
+}
+.place-and-time h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+.color{
+    color:#F00;
+}
+.place-and-time button{
+    padding: 1rem 2rem;
+    background-color: #FF0000;
+    border-radius: 0.5rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.place-and-time button:hover{
+    transform: scale(1.1);
+}
+
+                                      /* New Best Offer */
+
+.best-offer-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6rem;
+}
+.new-best-offer-left h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.new-best-offer-left h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.best-offer-area .midel-img{
+    cursor: pointer;
+}
+.best-offer-area .midel-img:hover{
+    transform: scale(1.1);
+}
+.new-best-offer-right{
+    margin-top: 6rem;
+}
+.new-best-offer-right h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.new-best-offer-right img{
+    margin-top: 2.69rem;
+}
+
+                        /* Holiday Sale Section style */
+
+.holiday-section{
+    text-align: center;
+    margin-top: 6rem;
+}
+.holiday-section h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.holiday-section h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+.holiday-section p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.holiday-section img{
+    width: 68rem;
+    margin-top: 4rem;
+}
+
+/* THE BEST GIFTS Section style */
+
+.gifts-section{
+    margin-top: 6rem;
+}
+.gifts-section h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.gifts-section h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 1rem;
+}
+.gifts-section p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 3rem;
+  }
+  .grid a img {
+    width: 100%;
+  }
+  .grid a img:hover{
+    transform: scale(1.1);
+  }
+
+                            /* .Subscribe section style */
+
+.subscribe-area{
+    padding: 5rem 0;
+    text-align: center;
+    background-color: #fff2f2;
+    border-radius: 1rem;
+    margin-top: 6rem;
+}
+.subscribe-area h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+.subscribe-area p{
+    color: #6a626b;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+form{
+    margin-top: 3rem;
+}
+form .email{
+    padding: 1.5rem 0 1.5rem 1.8rem;
+    width: 26rem;
+    outline: none;
+    border: none;
+    border-radius: 3.125rem 0rem 0rem 3.125rem;
+}
+form .btn{
+    padding: 1.5rem 3.5rem;
+    background-color: #FF0000;
+    border-radius: 0rem 3.125rem 3.125rem 0rem;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+form .btn:hover{
+    transform: scale(1.05);
+}
+footer{
+    background-color: #070211;
+    padding: 7rem 16rem 7rem 8rem;
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.address .left p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.address .right .phon{
+    display: flex;
+    gap: 1rem;
+}
+.address .right .web{
+    display: flex;
+    gap: 1rem;
+}
+.address .right .contact{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+hr{
+    margin-top: 3rem;
+}
+.social-icon{
+    text-align: center;
+    margin-top: 3rem;
+}
+.social-icon a img{
+margin-left: 1rem;
+}
+.social-icon a img:hover{
+    transform: scale(1.05);
+}
+.all-right-resevrved{
+    display: flex;
+    justify-content: space-between;
+}
+.all-right-resevrved h2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 3rem;
+}
